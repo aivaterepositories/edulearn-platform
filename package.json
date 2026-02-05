@@ -1,0 +1,17 @@
+{
+  "name": "edulearn-platform",
+  "version": "1.0.0",
+  "description": "Professional landing page for online course platform",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": ["landing-page", "edtech", "education", "e-learning"],
+  "author": "Aivate",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
